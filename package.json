@@ -1,0 +1,19 @@
+{
+  "name": "learn-node-npm",
+  "version": "1.0.0",
+  "description": "Makers Class 14 March 2018",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "\"node\"",
+    "\"npm\""
+  ],
+  "author": "Gerry",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "colors": "^1.2.1"
+  }
+}
