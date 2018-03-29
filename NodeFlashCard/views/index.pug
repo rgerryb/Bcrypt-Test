@@ -1,0 +1,7 @@
+extends layout
+
+block content
+    h4 Halo, #{username}
+    a(href="/cards") Buka Kartu
+    form(action= "/goodbye", method= "POST")
+            input(type="submit", value="Goodbye")                       

@@ -1,0 +1,21 @@
+{
+  "name": "flashcard",
+  "version": "1.0.0",
+  "description": "flashcard test",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "\"flash\"",
+    "\"card\""
+  ],
+  "author": "gerry",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "pug": "^2.0.1"
+  }
+}

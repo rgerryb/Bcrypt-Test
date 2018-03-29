@@ -1,0 +1,45 @@
+extends layout
+
+block content
+
+    content
+        h4= text
+        if hint
+            i Hint: #{hint}
+        br
+        br
+        a(href=`/cards/${id}?side=${sidenya}`) #{SideToDisplay} 
+        br
+        br
+        a(href="/cards") Soal Baru
+        br
+        br
+        a(href="/goodbye") Sign Out
+
+//- = SideToDisplay        
+//- doctype html
+//- head
+//-     title Flash Card
+//-     body
+//-     header
+//-     h2 Flash Card
+    
+
+    //-     ul
+    //-         each color in colors
+    //-             li= color
+
+    //- table
+    //-     thead
+    //-         td Nama
+    //-         td Umur
+    //- tbody
+    //-     tr
+    //-         td makers
+    //-         td 2
+    //-     tr
+    //-         td institute
+    //-         td 2
+
+    footer
+    p Copyleft Geroro 2018

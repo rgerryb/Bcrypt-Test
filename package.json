@@ -1,5 +1,5 @@
 {
-  "name": "learn-node-npm",
+  "name": "flashcard",
   "version": "1.0.0",
   "description": "Makers Class 14 March 2018",
   "main": "app.js",
@@ -15,5 +15,14 @@
   "dependencies": {
     "bcrypt": "^1.0.3",
     "colors": "^1.2.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgerryb/Bcrypt-Test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rgerryb/Bcrypt-Test/issues"
+  },
+  "homepage": "https://github.com/rgerryb/Bcrypt-Test#readme"
 }
